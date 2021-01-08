@@ -1,0 +1,74 @@
+label {display:inline-block; width:15%; text-align:right;}
+/* input {width: 15%;} */
+.inputGroupLabel {
+    width: 150px;
+}
+.inputGroupSlide {
+    width: 120px;
+}
+.inputGroupBox {
+    width: 100px;
+}
+body, html {height: 100%;
+            margin: 0;
+            font-family: Arial;
+}
+/* div.leftHalf {
+    widows: 50%;
+    float:left;
+}
+div.rightHalf {
+    margin-left:50%
+} */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: rgb(5, 5, 5);
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+.sidenav {
+height: 100%; /* Full-height: remove this if you want "auto" height */
+width: 160px; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+z-index: 1; /* Stay on top */
+top: 50px; /* Stay at the top */
+left: 0;
+background-color: #777; /* Black */
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 20px;
+}
+
+div.ccContent {
+margin-left: 160px;
+padding: 1px 16px
+}
+/* The navigation menu links */
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 18px;
+color: #e0e0e0;
+display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
